@@ -1,0 +1,95 @@
+[
+  {
+    "category": {
+      "ctype": "compute",
+      "resource": [
+        {
+          "name": "ec2",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "networking",
+      "resource": [
+        {
+          "name": "autoscaling",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "database",
+      "resource": [
+        {
+          "name": "dyamodb",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "storage",
+      "resource": [
+        {
+          "name": "efs",
+          "url": "http"
+        },
+        {
+          "name": "glacier",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "analytis",
+      "resource": [
+        {
+          "name": "kinesis",
+          "url": "http"
+        },
+        {
+          "name": "kafka",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "applicationintegration",
+      "resource": [
+        {
+          "name": "sqs",
+          "url": "http"
+        },
+        {
+          "name": "sns",
+          "url": "http"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "ctype": "machinelearning",
+      "resource": [
+        {
+          "name": "polly",
+          "url": "http"
+        },
+        {
+          "name": "polly",
+          "url": "http"
+        }
+      ]
+    }
+  }
+]

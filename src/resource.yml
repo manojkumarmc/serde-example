@@ -1,0 +1,68 @@
+---
+  - category:
+      ctype: compute
+      resource:
+        - name: ec2
+          url: http
+        - name: pricing
+          url: http
+  - category:
+      ctype: networking
+      resource:
+        - name: autoscaling
+          url: http
+        - name: directconnect
+          url: http
+  - category:
+      ctype: database
+      resource:
+        - name: dyamodb
+          url: http
+        - name: rds
+          url: http
+  - category:
+      ctype: storage
+      resource:
+        - name: efs
+          url: http
+  - category:
+      ctype: analytics
+      resource:
+        - name: kinesis
+          url: http
+  - category:
+      ctype: applicationintegration
+      resource:
+        - name: sqs
+          url: http
+  - category:
+      ctype: machinelearning
+      resource:
+        - name: polly
+          url: http
+  - category:
+      ctype: developer
+      resource:
+        - name: codedeploy
+          url: http
+  - category:
+      ctype: security
+      resource:
+        - name: cloudhsm
+          url: http
+  - category:
+      ctype: business
+      resource:
+        - name: workmail
+          url: http
+  - category:
+      ctype: elasticsearchcategory
+      resource:
+        - name: elasticsearch
+          url: http
+  - category:
+      ctype: enduser
+      resource:
+        - name: workspaces
+          url: http
+
